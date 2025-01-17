@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "p16-tiktokcdn-com.toutiao50.com",
+        "p16-tm-sg.tiktokmusic.me",
+        "lf16-secsdk.bitssec.com",
+        "p16-capcut-va.capcut.com"
+      ],
+      "domain_suffix": [
+        "123pan.com",
+        "mirror.ghproxy.com",
+        "bdys.me",
+        "qpic.cn",
+        "pddpic.com",
+        "nbpicture.xyz",
+        "oeo.li",
+        "asuscomm.com",
+        "myqnapcloud.com",
+        "423down.com",
+        "appinn.com",
+        "dama.lu",
+        "hostloc.com",
+        "justmysocks.in",
+        "mpyit.com",
+        "ipip.net",
+        "ip.la",
+        "ip-cdn.com",
+        "ipv6-test.com",
+        "test-ipv6.com",
+        "whatismyip.com",
+        "ip.plus",
+        "merck.com",
+        "ghh.digital",
+        "msdprivacy.com"
+      ],
+      "domain_keyword": [
+        "fuliba",
+        "xlys",
+        "default.akamaized.net"
+      ]
+    }
+  ]
+}
