@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "client-rapi-missav.recombee.com",
+        "client-rapi-us-west.recombee.com"
+      ],
+      "domain_suffix": [
+        "avfever.net",
+        "blogjav.net",
+        "busjav.bid",
+        "canadacache.com",
+        "cavporn.com",
+        "cdnbus.cloud",
+        "clcassd.com",
+        "eightcha.com",
+        "hanime1.me",
+        "histats.com",
+        "hkporn.net",
+        "hmoe.link",
+        "image.acg.lol",
+        "imgcap.xyz",
+        "iwara.tv",
+        "jav321.com",
+        "javcc.cc",
+        "javcc.com",
+        "javcdn.cc",
+        "javcdn.pw",
+        "javdb.com",
+        "javlibrary.com",
+        "javplayer.me",
+        "javstore.net",
+        "javwide.com",
+        "javwide.tv",
+        "jb-aiwei.cc",
+        "jdbimgs.com",
+        "jdbstatic.com",
+        "justav.net",
+        "missav.com",
+        "moe-acg.com",
+        "netcdn.space",
+        "netflav.com",
+        "netflav1.com",
+        "netflav5.com",
+        "nineyu.com",
+        "njav.tv",
+        "pixhost.to",
+        "rmhfrtnd.com",
+        "sis001.com",
+        "skyearth.xyz",
+        "status.hmoe.top",
+        "sukebei.nyaa.si",
+        "surrit.com",
+        "tellme.pw",
+        "theporndude.com",
+        "twporn.net",
+        "xhacgn.com"
+      ]
+      "domain_keyword": [
+        "avmoo",
+        "avsox",
+        "btdig",
+        "btsow",
+        "javbus",
+        "netflav",
+        "torrentkitty"
+      ]
+    }
+  ]
+}
