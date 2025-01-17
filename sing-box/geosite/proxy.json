@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "cvobcl-launches.appsflyersdk.com",
+        "cvobcl-skadsdk.appsflyersdk.com",
+        "cvobcl-cdn-settings.appsflyersdk.com",
+        "cvobcl-gcdsdk.appsflyersdk.com",
+        "smsactivate.s3.eu-central-1.amazonaws.com"
+      ],
+      "domain_suffix": [
+        "adrules.top",
+        "rizonesoft.com",
+        "qnap.com",
+        "driverpack.io",
+        "giveawayoftheday.com",
+        "twdown.net",
+        "printfriendly.com",
+        "digicert.com",
+        "plyr.io",
+        "polyfill.io",
+        "linux.do",
+        "sitecorecloud.io",
+        "brightcove.net",
+        "cookielaw.org",
+        "onetrust.com",
+        "bootstrapcdn.com",
+        "clashverge.dev",
+        "metacubex.one",
+        "cloudfront.net",
+        "daum.net",
+        "daumcdn.net",
+        "deepl.com",
+        "linguee.com",
+        "draw.io",
+        "diagrams.net",
+        "faststone.org",
+        "faststonesoft.net",
+        "imagingtips.com",
+        "v2ex.com",
+        "duyaoss.com",
+        "limbopro.xyz",
+        "qichiyu.com",
+        "skk.moe",
+        "iyyh.net",
+        "imazing.com",
+        "devmate.com",
+        "devmate.io",
+        "ip-api.com",
+        "pngall.com",
+        "sms-activate.org",
+        "tampermonkey.net",
+        "greasyfork.org",
+        "sleazyfork.org"
+      ]
+    }
+  ]
+}
