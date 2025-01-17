@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "local.adguard.org",
+        "injections.adguard.org"
+      ],
+      "domain_suffix": [
+        "asuscomm.com",
+        "myqnapcloud.com",
+        "turgame.com",
+        "msftconnecttest.com",
+        "msftncsi.com",
+        "windowsupdate.com",
+        "windowsupdate.microsoft.com",
+        "download.microsoft.com",
+        "wustat.windows.com",
+        "ntservicepack.microsoft.com",
+        "forefrontdl.microsoft.com",
+        "delivery.mp.microsoft.com",
+        "officecdn.microsoft.com"
+      ],
+      "domain_keyword": [
+        "update.microsoft.com",
+        "prod.do.dsp.mp.microsoft.com",
+        "windows.com.akadns.net"
+      ]
+    }
+  ]
+}
