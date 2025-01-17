@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "chuangtzu.ftp.acc.umu.se"
+      "domain_suffix": [
+        "pixeldrain.com",
+        "katfile.com",
+        "debian.org",
+        "immortalwrt.org",
+        "openwrt.org",
+        "lede-project.org",
+        "plex.tv",
+        "plex.wurl.tv",
+        "amagi.tv",
+        "frequency.stream",
+        "ubuntu.com"
+      ],
+      "domain_keyword": "filen"
+    }
+  ]
+}
