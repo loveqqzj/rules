@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "hanime1.me",
+        "justmysocks3.net"
+      ]
+    }
+  ]
+}
