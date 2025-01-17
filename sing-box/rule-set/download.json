@@ -2,7 +2,7 @@
   "version": 1,
   "rules": [
     {
-      "domain": "chuangtzu.ftp.acc.umu.se"
+      "domain": "chuangtzu.ftp.acc.umu.se",
       "domain_suffix": [
         "pixeldrain.com",
         "katfile.com",
