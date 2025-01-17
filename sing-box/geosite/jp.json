@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "amazon.co.jp",
+        "rakko.tools",
+        "1pondo.tv",
+        "d2pass.com",
+        "arzon.jp",
+        "avbase.net",
+        "av-wiki.net",
+        "javten.com",
+        "fc2.com",
+        "prestige-av.com",
+        "mgstage.com"
+      ]
+    }
+  ]
+}
