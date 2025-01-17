@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "addons.mozilla.org"
+      "domain_suffix": [
+        "googleapis.cn",
+        "onedrive.live.com",
+        "storage.live.com",
+        "xboxlive.com"
+      ]
+    }
+  ]
+}
