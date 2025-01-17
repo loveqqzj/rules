@@ -2,7 +2,7 @@
   "version": 1,
   "rules": [
     {
-      "domain": "addons.mozilla.org"
+      "domain": "addons.mozilla.org",
       "domain_suffix": [
         "googleapis.cn",
         "onedrive.live.com",
