@@ -1,0 +1,111 @@
+# > 其他
+host-keyword, adservice, reject
+host-suffix, app-measurement.com, reject
+host-suffix, amazon-adsystem.com, reject
+host-suffix, cnzz.com, reject
+host-suffix, mob.com, reject
+host-suffix, appsflyer.com, reject
+
+# > 12306
+host-suffix, ad.12306.cn, reject
+
+# > AirDroid
+host-suffix, lb.airdroid.com, reject
+host-suffix, td.airdroid.com, reject
+host-suffix, srv3.airdroid.com, reject
+host-suffix, pc.airdroid.com, reject
+
+# > Amap
+host-keyword, ads.amap.com, reject
+
+# > Apple
+host-suffix, iadsdk.apple.com, reject
+host-suffix, ads.internal.unity3d.com, reject
+host-suffix, ads.prd.ie.internal.unity3d.com, reject
+host-suffix, unityads.unity3d.com, reject
+
+# > AutoHome
+host, adproxy.autohome.com.cn, reject
+host, rd.autohome.com.cn, reject
+host, al.autohome.com.cn, reject
+host, applogapi.autohome.com.cn, reject
+
+# > Baidu
+host-suffix, cpro.baidu.com, reject
+host-suffix, pos.baidu.com, reject
+host, afd.baidu.com, reject
+host, als.baidu.com, reject
+host, duclick.baidu.com, reject
+host, mobads.baidu.com, reject
+host, mobads-logs.baidu.com, reject
+host, nsclick.baidu.com, reject
+
+# > ChinaTelecom
+host, ad.21cn.com, reject
+host, ad.k.21cn.com, reject
+host, admarket.21cn.com, reject
+host, adshows.21cn.com, reject
+
+# > Google
+host-suffix, doubleclick.net, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googleadsserving.cn, reject
+host-suffix, googlesyndication.com, reject
+host-suffix, google-analytics.com, reject
+
+# > Jav
+host-suffix, juicyads.com, reject
+host-suffix, rdrads.com, reject
+host-suffix, exoclick.com, reject
+
+# > Pixiv
+host-suffix, pixiv.org, reject
+host-suffix, yads.c.yimg.jp, reject
+host-suffix, yads.yjtag.yahoo.co.jp, reject
+host-suffix, ads-pixiv.net, reject
+host-suffix, nend.net, reject
+host-suffix, mopub.com, reject
+host-suffix, adtdp.com, reject
+host-suffix, teads.tv, reject
+host-suffix, fivecdm.com, reject
+
+# > Tencent
+host-suffix, e.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, l.qq.com, reject
+host, adsmind.apdcdn.tc.qq.com, reject
+host, adsmind.gdtimg.com, reject
+host, adsmind.tc.qq.com, reject
+host, pgdt.gtimg.cn, reject
+host, pgdt.gtimg.com, reject
+host, pgdt.ugdtimg.com, reject
+host, splashqqlive.gtimg.com, reject
+host, wa.gtimg.com, reject
+host, wxsnsdy.wxs.qq.com, reject
+host, wxsnsdythumb.wxs.qq.com, reject
+
+# > Wondershare
+host-suffix, kochava.com, reject
+host-suffix, cbs.wondershare.com, reject
+
+# > YouTube
+host-suffix, ads.youtube.com, reject
+host-suffix, azabu-u.ac.jp, reject
+host-suffix, couchcoaster.jp, reject
+host-suffix, delivery.dmkt-sp.jp, reject
+host-suffix, ehg-youtube.hitbox.com, reject
+host-suffix, fcmatch.youtube.com, reject
+host-suffix, googlevideoads.com, reject
+host-suffix, m-78.jp, reject
+host-suffix, nichibenren.or.jp, reject
+host-suffix, nicorette.co.kr, reject
+host-suffix, ssl-youtube.2cnt.net, reject
+host-suffix, youtube.112.2o7.net, reject
+host-suffix, youtube.2cnt.net, reject
+
+# > 智慧树
+host-suffix, e.hybbtree.com, reject
+host-suffix, ad5.hybbtree.com, reject
+host-suffix, pglstatp-toutiao.com, reject
+host-suffix, ready.hybbtree.com, reject
+host-suffix, shence-api.hybbtree.com, reject
