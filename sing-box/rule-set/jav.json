@@ -4,7 +4,9 @@
     {
       "domain": [
         "client-rapi-missav.recombee.com",
-        "client-rapi-us-west.recombee.com"
+        "client-rapi-us-west.recombee.com",
+        "301.x8o.de",
+        "cdn.inn-studio.com"
       ],
       "domain_suffix": [
         "avfever.net",
@@ -36,6 +38,7 @@
         "justav.net",
         "missav123.com",
         "missav.ws",
+        "fourhoi.com",
         "netcdn.space",
         "netflav.com",
         "netflav1.com",
