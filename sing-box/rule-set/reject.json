@@ -3,6 +3,7 @@
     "rules": [
       {
         "domain": [
+          "ad.x8o.de",
           "adproxy.autohome.com.cn",
           "rd.autohome.com.cn",
           "al.autohome.com.cn",
