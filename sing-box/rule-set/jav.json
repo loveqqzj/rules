@@ -6,7 +6,10 @@
         "client-rapi-missav.recombee.com",
         "client-rapi-us-west.recombee.com",
         "301.x8o.de",
-        "cdn.inn-studio.com"
+        "cdn.inn-studio.com",
+        "sdn.geekzu.org",
+        "p0.picjs.xyz",
+        "gw.ipfs-lens.dev"
       ],
       "domain_suffix": [
         "avfever.net",
