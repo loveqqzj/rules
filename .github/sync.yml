@@ -1,0 +1,38 @@
+# 给这个工作流取个名字
+name: Sync geo files from meta-rules-dat
+
+# 触发方式：当 meta-rules-dat 仓库有更新推送时，这个工作流就会运行
+on:
+  push:
+    branches: [ main ]  # 你也可以将此处的 main 替换为源仓库的默认分支名
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # 第一步：拉取（Checkout）你的 rules 仓库
+      - name: Checkout rules repository
+        uses: actions/checkout@v4
+
+      # 第二步：将 meta-rules-dat 仓库的内容同步过来
+      # 这个 Action 会负责把指定文件搬运过来
+      - name: Push geo files to rules/mihomo
+        uses: cpina/github-action-push-to-another-repository@main # [citation:5]
+        env:
+          # 使用你刚才保存在 Secrets 中的 Token 作为身份认证
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }} # [citation:5]
+        with:
+          # 这里填你要搬运的源文件夹，即 meta-rules-dat 仓库里的 geo 文件夹
+          source-directory: 'geo' # [citation:5]
+          # 你的 GitHub 用户名
+          destination-github-username: '你的GitHub用户名' # [citation:5]
+          # 目标仓库名，即你的 rules 仓库
+          destination-repository-name: 'rules' # [citation:5]
+          # 目标仓库里的文件夹，即存放文件的 mihomo 文件夹
+          target-directory: 'mihomo' # [citation:5]
+          # 目标仓库的分支，一般是 main
+          target-branch: main # [citation:5]
+          # 用于提交的邮箱和用户名，可以填你的 GitHub 邮箱和用户名
+          user-email: your-email@example.com # [citation:5]
+          user-name: your-username
+          commit-message: "Sync: Update geo files from meta-rules-dat" # [citation:5]
