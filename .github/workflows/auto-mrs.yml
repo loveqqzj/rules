@@ -9,72 +9,54 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+# 【新增】显式声明仓库读写权限
+permissions:
+  contents: write
+
 jobs:
   convert:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v6 # 升级到最新版本以适配 Node.js 24
+      uses: actions/checkout@v6
 
     - name: Download Mihomo Core
       run: |
-        # 清理可能残留的临时文件
         rm -f mihomo.gz mihomo-core
-        
         TAG=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "tag_name" | cut -d '"' -f 4)
         curl -L -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
-        
-        # 使用 gzip 解压并直接重命名输出到 mihomo-core
         gzip -dc mihomo.gz > mihomo-core
-        
-        # 清理压缩包，赋予执行权限，测试运行
         rm -f mihomo.gz
         chmod +x mihomo-core
         ./mihomo-core -v
 
     - name: Convert Rules to MRS
       run: |
-        echo "=== 检查源码目录是否存在 ==="
-        ls -la mihomo || true
-        
         mkdir -p mihomo/mrs/domain
         mkdir -p mihomo/mrs/ipcidr
 
-        echo "=== 开始转换 Domain 规则 ==="
         if [ -d "mihomo/domain" ]; then
           for file in mihomo/domain/*.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yaml)
-              echo "正在转换 Domain 文件: $file -> mihomo/mrs/domain/${filename}.mrs"
               ./mihomo-core convert-ruleset domain yaml "$file" "mihomo/mrs/domain/${filename}.mrs"
-            else
-              echo "未在 mihomo/domain/ 下找到任何 .yaml 文件"
+              echo "Converted domain: $filename"
             fi
           done
-        else
-          echo "mihomo/domain 目录不存在"
         fi
 
-        echo "=== 开始转换 IPCIDR 规则 ==="
         if [ -d "mihomo/ipcidr" ]; then
           for file in mihomo/ipcidr/*.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yaml)
-              echo "正在转换 IPCIDR 文件: $file -> mihomo/mrs/ipcidr/${filename}.mrs"
               ./mihomo-core convert-ruleset ipcidr yaml "$file" "mihomo/mrs/ipcidr/${filename}.mrs"
-            else
-              echo "未在 mihomo/ipcidr/ 下找到任何 .yaml 文件"
+              echo "Converted ipcidr: $filename"
             fi
           done
-        else
-          echo "mihomo/ipcidr 目录不存在"
         fi
-        
-        echo "=== 转换后的 mrs 目录内容 ==="
-        ls -R mihomo/mrs
 
     - name: Commit and Push MRS Files
-      uses: stefanzweifel/git-auto-commit-action@v7 # 升级到最新版本以适配 Node.js 24
+      uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: "Auto-update Mihomo MRS binary rules"
         branch: main
