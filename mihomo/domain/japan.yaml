@@ -1,0 +1,53 @@
+payload:
+    ###### DMM ######
+    - api-p.videomarket.jp
+    - +.dmm.com
+    - +.dmm-extension.com
+    - +.dmmapis.com
+    - +.dmmrex.com
+    - +.dmm.co.jp
+    - +.ad.games.dmm.com
+    - +.bluekai.com
+    - +.fout.jp
+    - +.gmossp-sp.jp
+    - +.i-mobile.co.jp
+    - +.im-apps.net
+    - +.impact-ad.jp
+    - +.ladsp.com
+    - +.microad.co.jp
+    - +.microad.jp
+    - +.socdm.com
+    ###### Pixiv ######
+    - +.booth.pm
+    - +.fanbox.cc
+    - +.pixiv.help
+    - +.pixiv.me
+    - +.pixiv.net
+    - +.pixiv.org
+    - +.pixiv-recommend.net
+    - +.pixivision.net
+    - +.pximg.net
+    - +.pixiv.co.jp
+    - +.ads-pixiv.net
+    ###### AV ######
+    - +.1pondo.tv
+    - +.avbase.net
+    - +.av-league.com
+    - +.av-wiki.net
+    - +.fc2.com
+    - +.fc2db.com
+    - +.prestige-av.com
+    - +.mgstage.com
+    - +.tokyo-hot.com
+    - +.duga.jp
+    ###### 网盘 ######
+    - +.infinicloud.com
+    ###### 雅虎 ######
+    - +.yahoo.co.jp
+    ###### 亚马逊 ######
+    - +.aboutamazon.jp
+    - +.amazon.jp
+    - +.kindle.jp
+    - +.kindleoasis.jp
+    - +.kindle.co.jp
+    - +.amazon.co.jp
