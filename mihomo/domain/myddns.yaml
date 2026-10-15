@@ -1,0 +1,9 @@
+payload:
+    ###### Cloudflare 购买域名 ######
+    - +.nodewarden.win
+    ###### 华硕全球区DDNS ######
+    - +.asuscomm.com
+    ###### 威联通大陆区DDNS ######
+    - +.mycloudnas.com
+    ###### 威联通全球区DDNS ######
+    - +.myqnapcloud.com
