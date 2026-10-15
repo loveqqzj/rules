@@ -1,9 +1,7 @@
 name: Convert Mihomo Rules to MRS
 
 on:
-  # 允许手动触发
   workflow_dispatch:
-  # 可选：文件有变动时自动触发，或者每天定时触发
   push:
     paths:
       - 'mihomo/domain/**'
@@ -16,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6 # 升级到最新版本以适配 Node.js 24
 
     - name: Download Mihomo Core
       run: |
@@ -26,7 +24,7 @@ jobs:
         TAG=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "tag_name" | cut -d '"' -f 4)
         curl -L -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
         
-        # 使用 gzip 解压并直接重命名输出到 mihomo-core，不产生冲突
+        # 使用 gzip 解压并直接重命名输出到 mihomo-core
         gzip -dc mihomo.gz > mihomo-core
         
         # 清理压缩包，赋予执行权限，测试运行
@@ -62,7 +60,7 @@ jobs:
         fi
 
     - name: Commit and Push MRS Files
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: stefanzweifel/git-auto-commit-action@v7 # 升级到最新版本以适配 Node.js 24
       with:
         commit_message: "Auto-update Mihomo MRS binary rules"
         branch: main
