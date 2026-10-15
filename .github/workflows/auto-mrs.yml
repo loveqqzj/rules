@@ -25,8 +25,12 @@ jobs:
         
         TAG=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "tag_name" | cut -d '"' -f 4)
         curl -L -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
-        gunzip mihomo.gz
-        mv mihomo mihomo-core
+        
+        # 使用 gzip 解压并直接重命名输出到 mihomo-core，不产生冲突
+        gzip -dc mihomo.gz > mihomo-core
+        
+        # 清理压缩包，赋予执行权限，测试运行
+        rm -f mihomo.gz
         chmod +x mihomo-core
         ./mihomo-core -v
 
