@@ -1,0 +1,62 @@
+name: Convert Mihomo Rules to MRS
+
+on:
+  # 允许手动触发
+  workflow_dispatch:
+  # 可选：文件有变动时自动触发，或者每天定时触发
+  push:
+    paths:
+      - 'mihomo/domain/**'
+      - 'mihomo/ipcidr/**'
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Download Mihomo Core
+      run: |
+        TAG=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "tag_name" | cut -d '"' -f 4)
+        curl -L -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
+        gunzip mihomo.gz
+        chmod +x mihomo
+        ./mihomo -v
+
+    - name: Convert Rules to MRS
+      run: |
+        # 创建输出目录
+        mkdir -p mihomo/mrs/domain
+        mkdir -p mihomo/mrs/ipcidr
+
+        # 1. 转换 Domain 类型的 YAML 规则
+        if [ -d "mihomo/domain" ]; then
+          for file in mihomo/domain/*.yaml; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .yaml)
+              ./mihomo convert-ruleset domain yaml "$file" "mihomo/mrs/domain/${filename}.mrs"
+              echo "Converted domain: $filename"
+            fi
+          done
+        fi
+
+        # 2. 转换 IPCIDR 类型的 YAML 规则
+        if [ -d "mihomo/ipcidr" ]; then
+          for file in mihomo/ipcidr/*.yaml; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .yaml)
+              ./mihomo convert-ruleset ipcidr yaml "$file" "mihomo/mrs/ipcidr/${filename}.mrs"
+              echo "Converted ipcidr: $filename"
+            fi
+          done
+        fi
+
+    - name: Commit and Push MRS Files
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Auto-update Mihomo MRS binary rules"
+        branch: main
+        file_pattern: "mihomo/mrs/**"
