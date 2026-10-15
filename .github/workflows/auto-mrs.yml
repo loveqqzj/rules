@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'rules/mihomo/domain/**'
-      - 'rules/mihomo/ipcidr/**'
+      - 'mihomo/domain/**'
+      - 'mihomo/ipcidr/**'
   schedule:
     - cron: '0 0 * * *'
 
@@ -35,47 +35,47 @@ jobs:
     - name: Convert Rules to MRS
       run: |
         echo "=== 检查源码目录是否存在 ==="
-        ls -la rules/mihomo || true
+        ls -la mihomo || true
         
-        mkdir -p rules/mihomo/mrs/domain
-        mkdir -p rules/mihomo/mrs/ipcidr
+        mkdir -p mihomo/mrs/domain
+        mkdir -p mihomo/mrs/ipcidr
 
         echo "=== 开始转换 Domain 规则 ==="
-        if [ -d "rules/mihomo/domain" ]; then
-          for file in rules/mihomo/domain/*.yaml; do
+        if [ -d "mihomo/domain" ]; then
+          for file in mihomo/domain/*.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yaml)
-              echo "正在转换 Domain 文件: $file -> rules/mihomo/mrs/domain/${filename}.mrs"
-              ./mihomo-core convert-ruleset domain yaml "$file" "rules/mihomo/mrs/domain/${filename}.mrs"
+              echo "正在转换 Domain 文件: $file -> mihomo/mrs/domain/${filename}.mrs"
+              ./mihomo-core convert-ruleset domain yaml "$file" "mihomo/mrs/domain/${filename}.mrs"
             else
-              echo "未在 rules/mihomo/domain/ 下找到任何 .yaml 文件"
+              echo "未在 mihomo/domain/ 下找到任何 .yaml 文件"
             fi
           done
         else
-          echo "rules/mihomo/domain 目录不存在"
+          echo "mihomo/domain 目录不存在"
         fi
 
         echo "=== 开始转换 IPCIDR 规则 ==="
-        if [ -d "rules/mihomo/ipcidr" ]; then
-          for file in rules/mihomo/ipcidr/*.yaml; do
+        if [ -d "mihomo/ipcidr" ]; then
+          for file in mihomo/ipcidr/*.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yaml)
-              echo "正在转换 IPCIDR 文件: $file -> rules/mihomo/mrs/ipcidr/${filename}.mrs"
-              ./mihomo-core convert-ruleset ipcidr yaml "$file" "rules/mihomo/mrs/ipcidr/${filename}.mrs"
+              echo "正在转换 IPCIDR 文件: $file -> mihomo/mrs/ipcidr/${filename}.mrs"
+              ./mihomo-core convert-ruleset ipcidr yaml "$file" "mihomo/mrs/ipcidr/${filename}.mrs"
             else
-              echo "未在 rules/mihomo/ipcidr/ 下找到任何 .yaml 文件"
+              echo "未在 mihomo/ipcidr/ 下找到任何 .yaml 文件"
             fi
           done
         else
-          echo "rules/mihomo/ipcidr 目录不存在"
+          echo "mihomo/ipcidr 目录不存在"
         fi
         
         echo "=== 转换后的 mrs 目录内容 ==="
-        ls -R rules/mihomo/mrs
+        ls -R mihomo/mrs
 
     - name: Commit and Push MRS Files
       uses: stefanzweifel/git-auto-commit-action@v7 # 升级到最新版本以适配 Node.js 24
       with:
         commit_message: "Auto-update Mihomo MRS binary rules"
         branch: main
-        file_pattern: "rules/mihomo/mrs/**"
+        file_pattern: "mihomo/mrs/**"
