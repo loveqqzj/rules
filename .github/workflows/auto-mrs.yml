@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'mihomo/domain/**'
-      - 'mihomo/ipcidr/**'
+      - 'rules/mihomo/domain/**'
+      - 'rules/mihomo/ipcidr/**'
   schedule:
     - cron: '0 0 * * *'
 
@@ -34,26 +34,26 @@ jobs:
 
     - name: Convert Rules to MRS
       run: |
-        mkdir -p mihomo/mrs/domain
-        mkdir -p mihomo/mrs/ipcidr
+        mkdir -p rules/mihomo/mrs/domain
+        mkdir -p rules/mihomo/mrs/ipcidr
 
         # 1. 转换 Domain 类型的 YAML 规则
-        if [ -d "mihomo/domain" ]; then
-          for file in mihomo/domain/*.yaml; do
+        if [ -d "rules/mihomo/domain" ]; then
+          for file in rules/mihomo/domain/*.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yaml)
-              ./mihomo-core convert-ruleset domain yaml "$file" "mihomo/mrs/domain/${filename}.mrs"
+              ./mihomo-core convert-ruleset domain yaml "$file" "rules/mihomo/mrs/domain/${filename}.mrs"
               echo "Converted domain: $filename"
             fi
           done
         fi
 
         # 2. 转换 IPCIDR 类型的 YAML 规则
-        if [ -d "mihomo/ipcidr" ]; then
-          for file in mihomo/ipcidr/*.yaml; do
+        if [ -d "rules/mihomo/ipcidr" ]; then
+          for file in rules/mihomo/ipcidr/*.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yaml)
-              ./mihomo-core convert-ruleset ipcidr yaml "$file" "mihomo/mrs/ipcidr/${filename}.mrs"
+              ./mihomo-core convert-ruleset ipcidr yaml "$file" "rules/mihomo/mrs/ipcidr/${filename}.mrs"
               echo "Converted ipcidr: $filename"
             fi
           done
@@ -64,4 +64,4 @@ jobs:
       with:
         commit_message: "Auto-update Mihomo MRS binary rules"
         branch: main
-        file_pattern: "mihomo/mrs/**"
+        file_pattern: "rules/mihomo/mrs/**"
