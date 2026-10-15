@@ -20,6 +20,9 @@ jobs:
 
     - name: Download Mihomo Core
       run: |
+        # 清理可能残留旧文件
+        rm -f mihomo mihomo.gz
+        
         TAG=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "tag_name" | cut -d '"' -f 4)
         curl -L -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
         gunzip mihomo.gz
