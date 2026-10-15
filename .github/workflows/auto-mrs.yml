@@ -20,18 +20,18 @@ jobs:
 
     - name: Download Mihomo Core
       run: |
-        # 清理可能残留旧文件
-        rm -f mihomo mihomo.gz
+        # 清理可能残留的临时文件
+        rm -f mihomo.gz mihomo-core
         
         TAG=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "tag_name" | cut -d '"' -f 4)
         curl -L -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
         gunzip mihomo.gz
-        chmod +x mihomo
-        ./mihomo -v
+        mv mihomo mihomo-core
+        chmod +x mihomo-core
+        ./mihomo-core -v
 
     - name: Convert Rules to MRS
       run: |
-        # 创建输出目录
         mkdir -p mihomo/mrs/domain
         mkdir -p mihomo/mrs/ipcidr
 
@@ -40,7 +40,7 @@ jobs:
           for file in mihomo/domain/*.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yaml)
-              ./mihomo convert-ruleset domain yaml "$file" "mihomo/mrs/domain/${filename}.mrs"
+              ./mihomo-core convert-ruleset domain yaml "$file" "mihomo/mrs/domain/${filename}.mrs"
               echo "Converted domain: $filename"
             fi
           done
@@ -51,7 +51,7 @@ jobs:
           for file in mihomo/ipcidr/*.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file" .yaml)
-              ./mihomo convert-ruleset ipcidr yaml "$file" "mihomo/mrs/ipcidr/${filename}.mrs"
+              ./mihomo-core convert-ruleset ipcidr yaml "$file" "mihomo/mrs/ipcidr/${filename}.mrs"
               echo "Converted ipcidr: $filename"
             fi
           done
