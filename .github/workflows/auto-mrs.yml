@@ -1,11 +1,16 @@
 name: Convert Mihomo Rules to MRS
 
 on:
+  # 允许在 GitHub 网页端手动触发
   workflow_dispatch:
-  push:
-    paths:
-      - 'mihomo/domain/**'
-      - 'mihomo/ipcidr/**'
+  
+  # 【已注释】如果以后需要恢复“修改源码后自动触发”，取消下方的注释即可
+  # push:
+  #   paths:
+  #     - 'mihomo/domain/**'
+  #     - 'mihomo/ipcidr/**'
+  
+  # 每天定时触发
   schedule:
     - cron: '0 0 * * *'
 
