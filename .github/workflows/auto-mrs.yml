@@ -9,7 +9,6 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
-# 【新增】显式声明仓库读写权限
 permissions:
   contents: write
 
@@ -20,14 +19,33 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6
 
-    - name: Download Mihomo Core
+    - name: Get Mihomo Tag
+      id: get-tag
       run: |
-        rm -f mihomo.gz mihomo-core
         TAG=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "tag_name" | cut -d '"' -f 4)
+        echo "tag=$TAG" >> $GITHUB_OUTPUT
+        echo "Latest Mihomo tag: $TAG"
+
+    - name: Cache Mihomo Core
+      id: cache-mihomo
+      uses: actions/cache@v4
+      with:
+        path: mihomo-core
+        key: mihomo-core-${{ steps.get-tag.outputs.tag }}-linux-amd64
+
+    - name: Download Mihomo Core (if cache miss)
+      if: steps.cache-mihomo.outputs.cache-hit != 'true'
+      run: |
+        TAG=${{ steps.get-tag.outputs.tag }}
+        echo "Cache miss. Downloading Mihomo version $TAG..."
+        rm -f mihomo.gz mihomo-core
         curl -L -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
         gzip -dc mihomo.gz > mihomo-core
         rm -f mihomo.gz
         chmod +x mihomo-core
+
+    - name: Verify Core Version
+      run: |
         ./mihomo-core -v
 
     - name: Convert Rules to MRS
