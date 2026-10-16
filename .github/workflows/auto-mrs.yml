@@ -33,7 +33,7 @@ jobs:
 
     - name: Cache Mihomo Core
       id: cache-mihomo
-      uses: actions/cache@v4
+      uses: actions/cache@v6
       with:
         path: mihomo-core
         key: mihomo-core-${{ steps.get-tag.outputs.tag }}-linux-amd64
