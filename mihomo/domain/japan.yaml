@@ -17,6 +17,8 @@ payload:
     - +.microad.co.jp
     - +.microad.jp
     - +.socdm.com
+    - +.fanza.jp
+    - +.fanza.co.jp
     ###### Pixiv ######
     - +.booth.pm
     - +.fanbox.cc
@@ -51,3 +53,14 @@ payload:
     - +.kindleoasis.jp
     - +.kindle.co.jp
     - +.amazon.co.jp
+    ###### DlSite ######
+    - +.chobit.cc
+    - +.ci-en.jp
+    - +.ci-en.net
+    - +.dlaf.jp
+    - +.dlsite.com
+    - +.dlsite.jp
+    - +.dlsitestudio.com
+    - +.nijiyome.jp
+    - +.triokini.com
+    - +.dlsite.com.tw
