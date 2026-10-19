@@ -1,4 +1,7 @@
 payload:
-    ######----国外网盘类----######
+    ###### 国外网盘类 ######
     - +.pixeldrain.com
     - +.katfile.com
+    ###### 资源下载类 ######
+    - +.immortalwrt.org
+    - +.proxmox.com
