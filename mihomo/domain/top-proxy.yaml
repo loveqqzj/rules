@@ -1,0 +1,5 @@
+payload:
+    ###### Firefox 插件中心 ######
+    - +.addons.mozilla.org
+    ###### OneDrive网页版 ######
+    - +.onedrive.live.com
