@@ -1,0 +1,11 @@
+payload:
+    ###### Github 加速 ######
+    - +.gh-proxy.com
+    - +.cdn.jsdelivr.net
+    ###### Cloudflare ######
+    - +.pages.dev
+    - +.nodewarden.win
+    ###### ImmTelecom 机场 ######
+    - +.immtele.com
+    - +.immtelecom.com
+    - +.prodigal4936.com
