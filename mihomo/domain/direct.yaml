@@ -13,3 +13,18 @@ payload:
     - +.dama.lu
     ###### 欧洲 Koofr 网盘 ######
     - +.koofr.eu
+    ###### 威联通 ######
+    - +.myqnapcloud.com
+    - +.qlink.to
+    - +.qnap.com
+    - +.qnapsupport.net
+    - +.mycloudnas.com
+    - +.myqnapcloud.cn
+    - +.qlinkto.cn
+    - +.qnap.com.cn
+    ###### 华硕 ######
+    - +.asuscomm.com
+    - +.asus.com
+    - +.asuscloud.com
+    - +.asuswebstorage.com
+    - +.asus.com.cn
