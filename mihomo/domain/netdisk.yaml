@@ -43,8 +43,6 @@ payload:
     - +.pikpak.me
     - +.pikpakdrive.com
     - o4504926511693824.ingest.sentry.io
-    ###### 欧洲 Koofr 网盘 ######
-    - +.koofr.eu
     ###### DropBox ######
     - paper-attachments.s3.amazonaws.com
     - +.db.tt
