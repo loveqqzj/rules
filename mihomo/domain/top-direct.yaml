@@ -1,4 +1,6 @@
 payload:
+    ###### 华硕 DDNS ######
+    - +.asuscomm.com
     ###### Github 加速 ######
     - +.gh-proxy.com
     - +.cdn.jsdelivr.net
