@@ -1,7 +1,85 @@
 payload:
+    ###### 安娜档案馆 ######
+    - +.annas-archive.gd
+    - +.annas-archive.gl
+    - +.annas-archive.in
+    - +.annas-archive.li
+    - +.annas-archive.org
+    - +.annas-archive.pk
+    - +.annas-archive.pm
+    - +.annas-archive.se
+    ###### 互联网档案馆 ######
+    - +.eotarchive.org
+    - +.ghostarchive.org
+    - +.megalodon.jp
+    - +.mementoweb.org
+    - +.perma.cc
+    - +.webcitation.org
+    - +.archive-it.org
+    - +.archive.org
+    - +.openlibrary.org
+    - +.4pcdn.org
+    - +.4plebs.org
+    - +.archive.today
+    - +.archive.fo
+    - +.archive.is
+    - +.archive.li
+    - +.archive.md
+    - +.archive.ph
+    - +.archive.vn
+    ###### Mega 网盘 ######
+    - +.mega.io
+    - +.mega.nz
+    - +.megaad.nz
+    - +.megapay.nz
+    - +.megas4.com
+    - +.transfer.it
+    - +.mega.co.nz
+    ###### PikPak 网盘 ######
+    - +.mypikpak.com
+    - +.mypikpak.net
+    - +.pickpackapp.com
+    - +.pikpak.io
+    - +.pikpak.me
+    - +.pikpakdrive.com
+    - o4504926511693824.ingest.sentry.io
+    ###### DropBox ######
+    - paper-attachments.s3.amazonaws.com
+    - +.db.tt
+    - +.dropbox-dns.com
+    - +.dropbox.com
+    - +.dropbox.tech
+    - +.dropboxapi.com
+    - +.dropboxbusiness.com
+    - +.dropboxcaptcha.com
+    - +.dropboxforum.com
+    - +.dropboxforums.com
+    - +.dropboxinsiders.com
+    - +.dropboxmail.com
+    - +.dropboxpartners.com
+    - +.dropboxstatic.com
+    - +.dropboxusercontent.com
+    - +.getdropbox.com
     ###### 国外网盘类 ######
     - +.pixeldrain.com
     - +.katfile.com
-    ###### 资源下载类 ######
+    ###### OpenWrt ######
     - +.immortalwrt.org
+    - +.openwrt.org
+    ###### PVE ######
     - +.proxmox.com
+    ###### Docker ######
+    - docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
+    - docker-pinata-support.s3.amazonaws.com
+    - +.compose-spec.io
+    - +.docker.com
+    - +.docker.io
+    - +.dockerstatic.com
+    ###### Ubuntu ######
+    - +.ubuntu.com
+    - +.ubuntu.net
+    - +.ubuntuforums.org
+    - +.ubuntu-touch.io
+    ###### Debian ######
+    - +.debian.org
+    - +.dotdeb.org
