@@ -5,3 +5,5 @@ payload:
     - +.onedrive.live.com
     ###### Cloudflare ######
     - +.workers.dev
+    ###### Just My Socks ######
+    - +.justmysocks3.net
