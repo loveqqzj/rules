@@ -3,3 +3,5 @@ payload:
     - +.addons.mozilla.org
     ###### OneDrive 网页版 ######
     - +.onedrive.live.com
+    ###### Cloudflare ######
+    - +.workers.dev
