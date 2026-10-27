@@ -319,3 +319,7 @@ payload:
     - +.autohome.com.cn
     - +.autoimg.cn
     - +.athm.cn
+    ###### Let's Encrypt ######
+    - +.lencr.org
+    - +.letsencrypt.com
+    - +.letsencrypt.org
