@@ -1,8 +1,5 @@
 payload:
-    ###### 社区导航 ######
-    - +.dama.lu
-    - +.autohome.com.cn
-    ###### 115网盘 ######
+     ###### 115网盘 ######
     - +.115.com
     - +.115cdn.com
     - +.115cdn.net
@@ -296,3 +293,29 @@ payload:
     - +.cloudflareprod.com
     - +.cloudflarestaging.com
     - +.cloudflarestoragegw.com
+    ###### 社区导航 ######
+    - +.dama.lu
+    - +.autohome.com.cn
+    - +.right.com.cn
+    - +.52pojie.cn
+    - +.nga.cn
+    - +.oplist.org
+    - +.right.com.cn
+    - +.openwrt.ai
+    - +.cnblogs.com
+    ###### 政府网站 ######
+    - +.gov.cn
+    ###### 中国铁路 ######
+    - +.12306.cn
+    - +.95306.cn
+    ###### 国家电网 ######
+    - +.95598.cn
+    - +.sgcc.com.cn
+    ###### TP-Link ######
+    - +.tplinkcloud.com.cn
+    - +.tp-linkshop.com.cn
+    - +.tp-link.com.cn
+    ###### 汽车之家 ######
+    - +.autohome.com.cn
+    - +.autoimg.cn
+    - +.athm.cn
