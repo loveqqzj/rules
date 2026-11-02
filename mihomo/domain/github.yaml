@@ -26,8 +26,6 @@ payload:
     - productionresultssa17.blob.core.windows.net
     - productionresultssa18.blob.core.windows.net
     - productionresultssa19.blob.core.windows.net
-    - copilot-proxy.githubusercontent.com
-    - copilot-workspace.githubnext.com
     - copilotprodattachments.blob.core.windows.net
     - +.atom.io
     - +.dependabot.com
@@ -60,7 +58,3 @@ payload:
     - +.npmjs.com
     - +.npmjs.org
     - +.githubcopilot.com
-    - +.cafe.github.com
-    - +.collector.github.com
-    - copilot-telemetry-service.githubusercontent.com
-    - copilot-telemetry.githubusercontent.com
