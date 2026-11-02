@@ -1,0 +1,31 @@
+payload:
+  # 1. Google 核心搜索及基础架构
+  - +.google.com
+  - +.google
+  - +.g.co
+  - +.gstatic.com
+  - +.googleusercontent.com
+  - +.1e100.net
+
+  # 2. Google & Scholar 港日地区特化
+  - +.google.com.hk
+  - +.google.co.jp
+  - +.scholar.google.com.hk
+  - +.scholar.google.co.jp
+
+  # 3. YouTube 视频核心服务 (含港日分站)
+  - +.youtube.com
+  - +.youtu.be
+  - +.googlevideo.com
+  - +.ytimg.com
+  - +.ggpht.com
+  - +.youtube.co.jp
+  - +.youtube.hk
+
+  # 4. Gemini 及 Google AI / 开发者 API
+  - +.google.dev
+  - +.googleapis.com
+
+  # 5. 谷歌必要的底层 CDN 与加速节点
+  - +.gvt1.com
+  - +.gvt2.com
