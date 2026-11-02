@@ -1,5 +1,5 @@
 payload:
-    ###### DMM ######
+    # ================= DMM =================
     - api-p.videomarket.jp
     - +.dmm.com
     - +.dmm-extension.com
@@ -18,7 +18,7 @@ payload:
     - +.microad.jp
     - +.socdm.com
     - +.navismithapis-cdn.com
-    ###### Pixiv ######
+    # ================= Pixiv =================
     - +.booth.pm
     - +.fanbox.cc
     - +.pixiv.help
@@ -30,9 +30,9 @@ payload:
     - +.pximg.net
     - +.pixiv.co.jp
     - +.ads-pixiv.net
-    ###### Fantia ######
+    # ================= Fantia =================
     - +.fantia.jp
-    ###### AV ######
+    # ================= AV =================
     - +.1pondo.tv
     - +.avbase.net
     - +.av-league.com
@@ -43,18 +43,18 @@ payload:
     - +.mgstage.com
     - +.tokyo-hot.com
     - +.duga.jp
-    ###### 网盘 ######
+    # ================= 网盘 =================
     - +.infinicloud.com
-    ###### 雅虎 ######
+    # ================= 雅虎 =================
     - +.yahoo.co.jp
-    ###### 亚马逊 ######
+    # ================= 亚马逊 =================
     - +.aboutamazon.jp
     - +.amazon.jp
     - +.kindle.jp
     - +.kindleoasis.jp
     - +.kindle.co.jp
     - +.amazon.co.jp
-    ###### DLsite ######
+    # ================= DLsite =================
     - +.chobit.cc
     - +.ci-en.jp
     - +.ci-en.net
