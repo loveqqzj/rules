@@ -1,5 +1,5 @@
 payload:
-    ###### 安娜档案馆 ######
+    # ====== 安娜档案馆 ======
     - +.annas-archive.gd
     - +.annas-archive.gl
     - +.annas-archive.in
@@ -8,7 +8,7 @@ payload:
     - +.annas-archive.pk
     - +.annas-archive.pm
     - +.annas-archive.se
-    ###### 互联网档案馆 ######
+    # ====== 互联网档案馆 ======
     - +.eotarchive.org
     - +.ghostarchive.org
     - +.megalodon.jp
@@ -27,7 +27,7 @@ payload:
     - +.archive.md
     - +.archive.ph
     - +.archive.vn
-    ###### Mega 网盘 ######
+    # ====== Mega 网盘 ======
     - +.mega.io
     - +.mega.nz
     - +.megaad.nz
@@ -35,7 +35,7 @@ payload:
     - +.megas4.com
     - +.transfer.it
     - +.mega.co.nz
-    ###### PikPak 网盘 ######
+    # ====== PikPak 网盘 ======
     - +.mypikpak.com
     - +.mypikpak.net
     - +.pickpackapp.com
@@ -43,18 +43,6 @@ payload:
     - +.pikpak.me
     - +.pikpakdrive.com
     - o4504926511693824.ingest.sentry.io
-    ###### 国外网盘类 ######
+    # ====== 国外网盘类 ======
     - +.pixeldrain.com
     - +.katfile.com
-    ###### OpenWrt ######
-    - +.immortalwrt.org
-    - +.openwrt.org
-    ###### PVE ######
-    - +.proxmox.com
-    ###### Docker ######
-    - docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
-    - docker-pinata-support.s3.amazonaws.com
-    - +.compose-spec.io
-    - +.docker.com
-    - +.docker.io
-    - +.dockerstatic.com
