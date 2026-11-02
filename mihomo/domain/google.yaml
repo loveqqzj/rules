@@ -29,3 +29,38 @@ payload:
   # 5. 谷歌必要的底层 CDN 与加速节点
   - +.gvt1.com
   - +.gvt2.com
+
+
+
+  # Google 搜索（全球、香港、日本）
+  - +.google.com
+  - +.google.com.hk
+  - +.google.co.jp
+  - +.googleapis.com
+  - +.googleusercontent.com
+  - +.gstatic.com
+  - +.1e100.net
+
+  # YouTube
+  - +.youtube.com
+  - +.youtube.com.hk
+  - +.youtube.co.jp
+  - +.youtu.be
+  - +.youtube-nocookie.com
+  - +.googlevideo.com
+  - +.ytimg.com
+  - +.ggpht.com
+  - +.youtubei.googleapis.com
+
+  # Gemini
+  - +.gemini.google.com
+  - +.gemini.google.com.hk
+  - +.gemini.google.co.jp
+  - +.generativelanguage.googleapis.com
+  - +.ai.google.dev
+  - +.ai.studio
+  - +.deepmind.com
+  - +.geminiweb-pa.clients.google.com
+  - +.geminiweb-pa.clients6.google.com
+  - +.alkalimakersuite-pa.clients6.google.com
+  - +.cloudaicompanion.googleapis.com
