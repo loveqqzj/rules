@@ -1,5 +1,5 @@
 payload:
-  ###### YouTube ######
+  # ================= YouTube =================
   - +.youtube.com
   - +.youtube.hk
   - +.youtube.com.hk
@@ -10,8 +10,7 @@ payload:
   - +.ytimg.com
   - +.ggpht.com
   - +.youtubei.googleapis.com
-  
-  ###### Google 核心搜索及基础架构 ######
+  # ================= Google 核心搜索及基础架构 =================
   - +.goog
   - +.google
   - +.g.co
@@ -30,8 +29,7 @@ payload:
   - +.recaptcha.net
   - +.recaptcha-cn.net
   - +.widevine.com
-
-   ###### Gmail / Google Workspace / 办公 ######
+   # ================= Gmail / Google Workspace / 办公 =================
   - +.gmail.com
   - +.googlemail.com
   - +.gsuite.com
