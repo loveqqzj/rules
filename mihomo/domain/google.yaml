@@ -1,48 +1,7 @@
 payload:
-  # 1. Google 核心搜索及基础架构
-  - +.google.com
-  - +.google
-  - +.g.co
-  - +.gstatic.com
-  - +.googleusercontent.com
-  - +.1e100.net
-
-  # 2. Google & Scholar 港日地区特化
-  - +.google.com.hk
-  - +.google.co.jp
-  - +.scholar.google.com.hk
-  - +.scholar.google.co.jp
-
-  # 3. YouTube 视频核心服务 (含港日分站)
+  ###### YouTube ######
   - +.youtube.com
-  - +.youtu.be
-  - +.googlevideo.com
-  - +.ytimg.com
-  - +.ggpht.com
-  - +.youtube.co.jp
   - +.youtube.hk
-
-  # 4. Gemini 及 Google AI / 开发者 API
-  - +.google.dev
-  - +.googleapis.com
-
-  # 5. 谷歌必要的底层 CDN 与加速节点
-  - +.gvt1.com
-  - +.gvt2.com
-
-
-
-  # Google 搜索（全球、香港、日本）
-  - +.google.com
-  - +.google.com.hk
-  - +.google.co.jp
-  - +.googleapis.com
-  - +.googleusercontent.com
-  - +.gstatic.com
-  - +.1e100.net
-
-  # YouTube
-  - +.youtube.com
   - +.youtube.com.hk
   - +.youtube.co.jp
   - +.youtu.be
@@ -51,16 +10,37 @@ payload:
   - +.ytimg.com
   - +.ggpht.com
   - +.youtubei.googleapis.com
-
-  # Gemini
-  - +.gemini.google.com
-  - +.gemini.google.com.hk
-  - +.gemini.google.co.jp
-  - +.generativelanguage.googleapis.com
-  - +.ai.google.dev
+  
+  ###### Google 核心搜索及基础架构 ######
+  - +.goog
+  - +.google
+  - +.g.co
+  - +.google.com
+  - +.google.com.hk
+  - +.google.co.jp
+  - +.googleapis.com
+  - +.googleusercontent.com
+  - +.gstatic.com
+  - +.1e100.net
+  - +.google.dev
   - +.ai.studio
   - +.deepmind.com
-  - +.geminiweb-pa.clients.google.com
-  - +.geminiweb-pa.clients6.google.com
-  - +.alkalimakersuite-pa.clients6.google.com
-  - +.cloudaicompanion.googleapis.com
+  - +.gvt1.com
+  - +.gvt2.com
+  - +.recaptcha.net
+  - +.recaptcha-cn.net
+  - +.widevine.com
+
+   ###### Gmail / Google Workspace / 办公 ######
+  - +.gmail.com
+  - +.googlemail.com
+  - +.gsuite.com
+  - +.googleapps.com
+  - +.googledrive.com
+  - +.googlephotos.com
+  - +.googlemaps.com
+  - +.googleearth.com
+  - +.meet.new
+  - +.docs.new
+  - +.sheets.new
+  - +.slides.new
