@@ -1,0 +1,40 @@
+payload:
+  # ====== PayPal 核心及 API ======
+  - +.paypal.com
+  - +.paypal.me
+  - +.paypalobjects.com
+  - +.paypal-corp.com
+  - +.paypal-status.com
+  - +.paypal.ca
+  - +.paypal.hk
+  - +.paypal.jp
+  - +.paypal.us
+  - +.paypal.com.cn
+  - +.paypal.com.hk
+  - +.paypal.com.sg
+  - +.pypl.com
+  # ====== PayPal 官方服务/开发者/社区 ======
+  - +.paypalcommunity.com
+  - +.paypalcredit.com
+  - +.paypalgivingfund.org
+  - +.paypal-apps.com
+  - +.paypal-support.com
+  - +.paypal-marketing.com
+  - +.pdncommunity.com
+  - +.devtools-paypal.com
+  # ====== Braintree (PayPal 旗下支付网关) ======
+  - +.braintreegateway.com
+  - +.braintreepayments.com
+  - +.getbraintree.com
+  # ====== Venmo (PayPal 旗下移动支付) ======
+  - +.venmo.com
+  - venmo.s3.amazonaws.com
+  # ====== Xoom (PayPal 旗下国际汇款) ======
+  - +.xoom.com
+  - +.xoom.io
+  # ====== 旗下金融/其他业务 (LoanBuilder, Simility, Card.io 等) ======
+  - +.loanbuilder.com
+  - +.simility.com
+  - +.card.io
+  - +.beibao.com
+  - +.billmelater.com
