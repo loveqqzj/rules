@@ -1,24 +1,31 @@
 payload:
-    ###### Just My Socks ######
+    # ================= Just My Socks =================
+    - +.justmysocks.net
+    - +.justmysocks1.net
+    - +.justmysocks2.net
     - +.justmysocks3.net
-    ###### 福利吧 ######
+    - +.justmysocks4.net
+    # ================= 机场测速 =================
+    - +.duyaoss.com
+    - +.duyaossr.com
+    # ================= 福利吧 =================
     - +.fuliba2025.net
     - +.wnflb2023.com
-    ###### 七尺宇 ######
+    # ================= 七尺宇 =================
     - +.qichiyu.com
-    ###### 羊刀仙的部落格 ######
+    # ================= 羊刀仙的部落格 =================
     - +.ydxian.xyz
     - +.i-meto.com
-    ###### App热 ######
+    # ================= App热 =================
     - +.apphot.cc
-    ###### 种子站点 ######
+    # ================= 种子站点 =================
     - +.tellme.pw
     - +.btsow.live
     - +.btsow.com
     - +.btdig.com
     - +.taocili.com
     - +.sukebei.nyaa.si
-    ###### 其他网站 ######
+    # ================= 其他网站 =================
     - +.myfonts.com
     - +.fonts.com
     - +.fonts.net
