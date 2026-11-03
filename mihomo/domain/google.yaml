@@ -1,17 +1,4 @@
 payload:
-  # ================= YouTube =================
-  - +.youtube.com
-  - +.youtubekids.com
-  - +.youtubeeducation.com
-  - +.youtube.hk
-  - +.youtube.com.hk
-  - +.youtube.co.jp
-  - +.youtu.be
-  - +.youtube-nocookie.com
-  - +.googlevideo.com
-  - +.ytimg.com
-  - +.ggpht.com
-  - +.youtubei.googleapis.com
   # ================= Google 核心搜索及基础架构 =================
   - +.goog
   - +.google
