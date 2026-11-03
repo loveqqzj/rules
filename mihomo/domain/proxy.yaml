@@ -1,4 +1,8 @@
 payload:
+    # ================= Tampermonkey =================
+    - +.tampermonkey.net
+    - +.sleazyfork.org
+    - +.greasyfork.org
     # ================= Just My Socks =================
     - +.justmysocks.net
     - +.justmysocks1.net
@@ -26,11 +30,6 @@ payload:
     - +.taocili.com
     - +.sukebei.nyaa.si
     # ================= 其他网站 =================
-    - +.myfonts.com
-    - +.fonts.com
-    - +.fonts.net
     - +.fontawesome.com
     - +.gravatar.com
-    - +.sleazyfork.org
-    - +.greasyfork.org
     - +.currency.wiki
