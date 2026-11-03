@@ -1,6 +1,8 @@
 payload:
   # ================= YouTube =================
   - +.youtube.com
+  - +.youtubekids.com
+  - +.youtubeeducation.com
   - +.youtube.hk
   - +.youtube.com.hk
   - +.youtube.co.jp
@@ -14,11 +16,14 @@ payload:
   - +.goog
   - +.google
   - +.g.co
+  - +.google.cn
   - +.google.com
   - +.google.com.hk
   - +.google.co.jp
+  - +.googleapis.cn
   - +.googleapis.com
   - +.googleusercontent.com
+  - +.gstatic.cn
   - +.gstatic.com
   - +.1e100.net
   - +.google.dev
@@ -29,11 +34,12 @@ payload:
   - +.recaptcha.net
   - +.recaptcha-cn.net
   - +.widevine.com
-   # ================= Gmail / Google Workspace / 办公 =================
+   # ================= 其他服务 =================
   - +.gmail.com
   - +.googlemail.com
   - +.gsuite.com
   - +.googleapps.com
+  - +.googleplay.com
   - +.googledrive.com
   - +.googlephotos.com
   - +.googlemaps.com
