@@ -13,6 +13,8 @@ payload:
   - +.office
   - +.skype
   - +.windows
+  - +.onedrive
+  - +.onedriveupdater
   - +.bing
   - +.azure
   - +.xbox
@@ -140,6 +142,7 @@ payload:
   - +.microsoftonline-p.com
   - +.microsoftonline.com
   - +.microsoftpartnercommunity.com
+  - +.microsoftpersonalcontent.com
   - +.microsoftready.com
   - +.microsoftsiteselection.com
   - +.microsoftstore.com
@@ -205,6 +208,8 @@ payload:
   - +.sfbassets.com
   - +.sfbassets.net
   - +.sfx.ms
+  - +.sharepoint.com
+  - +.sharepointonline.com
   - +.signalr.net
   - +.skype.com
   - +.skype.net
@@ -247,7 +252,10 @@ payload:
   - +.yammer.com
   - +.msnkids.com
   - +.msnewskids.org
+  - +.onedrive.com
   - +.microsoft.ca
+  - +.livefilestore.com
+  - +.1drv.com
   - +.office365.com
   - +.microsoft.cat
   - +.msnewskids.net
@@ -449,6 +457,7 @@ payload:
   - +.skype-edf.akadns.net
   - +.skypedata.akadns.net
   - +.visualstudio.co.uk
+  - +.spoprod-a.akamaihd.net
   - +.microsoftstore.com.hk
   - +.live.com.au
   - +.applicationinsights.io
