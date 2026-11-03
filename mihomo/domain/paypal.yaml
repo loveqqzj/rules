@@ -5,13 +5,6 @@ payload:
   - +.paypalobjects.com
   - +.paypal-corp.com
   - +.paypal-status.com
-  - +.paypal.ca
-  - +.paypal.hk
-  - +.paypal.jp
-  - +.paypal.us
-  - +.paypal.com.cn
-  - +.paypal.com.hk
-  - +.paypal.com.sg
   - +.pypl.com
   # ====== PayPal 官方服务/开发者/社区 ======
   - +.paypalcommunity.com
