@@ -1,5 +1,5 @@
 payload:
-     ###### 115网盘 ######
+     # ====== 115网盘 ======
     - +.115.com
     - +.115cdn.com
     - +.115cdn.net
@@ -14,17 +14,20 @@ payload:
     - +.116cd.net
     - +.anxia.com
     - +.sq.cc
-    ###### 哔哩哔哩 ######
+    # ====== 哔哩哔哩 ======
     - +.bilibili.com
     - +.bilivideo.com
     - +.hdslb.com
-    ###### 华硕 ######
+    # ====== DeepSeek ======
+    - +.deepseek.com
+    - +.deepseeksvc.com
+    # ====== 华硕 ======
     - +.asuscomm.com
     - +.asus.com
     - +.asuscloud.com
     - +.asuswebstorage.com
     - +.asus.com.cn
-    ###### 威联通 ######
+    # ====== 威联通 ======
     - +.myqnapcloud.com
     - +.qlink.to
     - +.qnap.com
@@ -33,7 +36,7 @@ payload:
     - +.myqnapcloud.cn
     - +.qlinkto.cn
     - +.qnap.com.cn
-    ###### 社区导航 ######
+    # ====== 社区导航 ======
     - +.dama.lu
     - +.autohome.com.cn
     - +.right.com.cn
@@ -43,23 +46,23 @@ payload:
     - +.right.com.cn
     - +.openwrt.ai
     - +.cnblogs.com
-    ###### 政府网站 ######
+    # ====== 政府网站 ======
     - +.gov.cn
-    ###### 中国铁路 ######
+    # ====== 中国铁路 ======
     - +.12306.cn
     - +.95306.cn
-    ###### 国家电网 ######
+    # ====== 国家电网 ======
     - +.95598.cn
     - +.sgcc.com.cn
-    ###### TP-Link ######
+    # ====== TP-Link ======
     - +.tplinkcloud.com.cn
     - +.tp-linkshop.com.cn
     - +.tp-link.com.cn
-    ###### 汽车之家 ######
+    # ====== 汽车之家 ======
     - +.autohome.com.cn
     - +.autoimg.cn
     - +.athm.cn
-    ###### Let's Encrypt ######
+    # ====== Let's Encrypt ======
     - +.lencr.org
     - +.letsencrypt.com
     - +.letsencrypt.org
