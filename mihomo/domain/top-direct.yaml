@@ -1,15 +1,17 @@
 payload:
-    ###### 华硕 DDNS ######
+    # ====== DDNS ======
     - +.asuscomm.com
-    ###### Github 加速 ######
+    - +.myqnapcloud.com
+    - +.mycloudnas.com
+    # ====== Github 加速 ======
     - +.gh-proxy.com
     - +.cdn.jsdelivr.net
-    ###### Cloudflare ######
+    # ====== Cloudflare ======
     - +.pages.dev
     - +.nodewarden.win
-    ###### ImmTelecom 机场 ######
+    # ====== ImmTelecom 机场 ======
     - +.immtele.com
     - +.immtelecom.com
     - +.prodigal4936.com
-    ###### 欧洲 Koofr 网盘 ######
+    # ====== 欧洲 Koofr 网盘 ======
     - +.koofr.eu
