@@ -1,5 +1,5 @@
 payload:
-     # ====== 115网盘 ======
+     # ========== 115网盘 ==========
     - +.115.com
     - +.115cdn.com
     - +.115cdn.net
@@ -14,14 +14,14 @@ payload:
     - +.116cd.net
     - +.anxia.com
     - +.sq.cc
-    # ====== 哔哩哔哩 ======
+    # ========== 哔哩哔哩 ==========
     - +.bilibili.com
     - +.bilivideo.com
     - +.hdslb.com
-    # ====== DeepSeek ======
+    # ========== DeepSeek ===========
     - +.deepseek.com
     - +.deepseeksvc.com
-    # ====== 社区导航 ======
+    # ========== 社区导航 ==========
     - +.dama.lu
     - +.52pojie.cn
     - +.oplist.org
