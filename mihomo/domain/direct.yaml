@@ -26,7 +26,3 @@ payload:
     - +.52pojie.cn
     - +.oplist.org
     - +.openwrt.ai
-    # ====== Let's Encrypt ======
-    - +.lencr.org
-    - +.letsencrypt.com
-    - +.letsencrypt.org
