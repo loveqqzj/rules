@@ -9,6 +9,10 @@ payload:
     # ====== Cloudflare ======
     - +.pages.dev
     - +.nodewarden.win
+    # ====== Let's Encrypt ======
+    - +.lencr.org
+    - +.letsencrypt.com
+    - +.letsencrypt.org
     # ====== ImmTelecom 机场 ======
     - +.immtele.com
     - +.immtelecom.com
