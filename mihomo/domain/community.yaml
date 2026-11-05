@@ -41,6 +41,8 @@ payload:
     - +.reddit.app.link
     - +.reddit.map.fastly.net
     # ============ Paylocity ============
-    - +.paylocity.com, proxy
+    - +.paylocity.com
     # ============ Carta ============
-    - +.carta.com, proxy
+    - +.carta.com
+    # ============ 汇率转换 ============
+    - +.currency.wiki
