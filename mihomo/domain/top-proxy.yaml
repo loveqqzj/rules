@@ -15,7 +15,7 @@ payload:
     - +.justmysocks2.net
     - +.justmysocks3.net
     - +.justmysocks4.net
-    # ============ 其他网站 ============
+    # ============ 网页通用资源网站 ============
     - +.fontawesome.com
     - +.gravatar.com
-    - +.currency.wiki
+    - +.imgur.com
