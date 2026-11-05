@@ -24,3 +24,6 @@ payload:
     - +.nodequality.com
     - +.nodeseek.com
     - +.nodeseek.org
+    # ============ Hostloc ============
+    - +.hostloc.com
+    - +.hostloc.net
