@@ -40,3 +40,7 @@ payload:
     - +.redditstatus.com
     - +.reddit.app.link
     - +.reddit.map.fastly.net
+    # ============ 图片托管与视觉内容分享平台 ============
+    - +.imgur.com, proxy
+    # ============ 全球通用头像识别服务 ============
+    - +.gravatar.com, proxy
