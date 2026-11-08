@@ -22,3 +22,6 @@ payload:
     - +.imgur.com
     - +.geojs.io
     - +.oeo.li
+    # ============ IP 查询 ============
+    - +.ip-api.com
+    - +.geojs.io
