@@ -1,8 +1,9 @@
 payload:
     # ============ Firefox 插件中心 ============
     - +.addons.mozilla.org
-    # ============ OneDrive 网页版 ============
+    # ============ Microsoft ============
     - +.onedrive.live.com
+     - +.xbox.live.com
     # ============ Cloudflare ============
     - +.workers.dev
     # ============ Tampermonkey ============
