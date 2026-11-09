@@ -3,7 +3,7 @@ payload:
     - +.addons.mozilla.org
     # ============ Microsoft ============
     - +.onedrive.live.com
-     - +.xbox.live.com
+    - +.xbox.live.com
     # ============ Cloudflare ============
     - +.workers.dev
     # ============ Tampermonkey ============
