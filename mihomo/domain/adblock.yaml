@@ -634,6 +634,7 @@ payload:
   - +.logger.qmai.cn
   - +.tracking.mcdonalds.com.cn
   - +.trackingprd.hwwt8.com
+  - +.adttrackingprd.hwwt8.com
   - +.trackserver.shuxinyc.com
   - sentry.hetzner.company
   - sentry.ozon.ru
