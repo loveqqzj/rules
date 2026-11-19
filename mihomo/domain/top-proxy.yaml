@@ -6,22 +6,6 @@ payload:
     - +.xbox.live.com
     # ============ Cloudflare ============
     - +.workers.dev
-    # ============ Tampermonkey ============
-    - +.tampermonkey.net
-    - +.sleazyfork.org
-    - +.greasyfork.org
-    # ============ Just My Socks ============
-    - +.justmysocks.net
-    - +.justmysocks1.net
-    - +.justmysocks2.net
-    - +.justmysocks3.net
-    - +.justmysocks4.net
-    # ============ 其他 ============
-    - +.fontawesome.com
-    - +.gravatar.com
-    - +.imgur.com
-    - +.geojs.io
-    - +.oeo.li
     # ============ IP 查询 ============
     - +.ip-api.com
     - +.geojs.io
