@@ -1,0 +1,14 @@
+payload:
+    # ============ IMDB ============
+    - +.imdb
+    - +.boxofficemojo.com
+    - +.imdb.com
+    - +.imdb.to
+    - +.media-imdb.com
+    # ============ TMDB ============
+    - tmdb-image-prod.b-cdn.net
+    - tmdb-web-image-prod.b-cdn.net
+    - +.themoviedb.org
+    - +.tmdb.org
+    # ============ TVDB ============
+    - +.thetvdb.com
