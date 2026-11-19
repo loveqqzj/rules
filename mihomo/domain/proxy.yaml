@@ -24,6 +24,7 @@ payload:
     # ============ TMDB ============
     - tmdb-image-prod.b-cdn.net
     - tmdb-web-image-prod.b-cdn.net
+    - tmdb-pearl.vercel.app
     - +.themoviedb.org
     - +.tmdb.org
     # ============ TVDB ============
