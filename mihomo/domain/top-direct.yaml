@@ -28,6 +28,7 @@ payload:
     - +.myqnapcloud.com
     - +.mycloudnas.com
     # ========== Github 加速 ==========
+    - +.gh-proxy.org
     - +.gh-proxy.com
     - +.cdn.jsdelivr.net
     # ========== Cloudflare ==========
