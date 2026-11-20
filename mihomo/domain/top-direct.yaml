@@ -16,6 +16,11 @@ payload:
     - +.116cd.net
     - +.anxia.com
     - +.sq.cc
+    # ========== 阿里云盘 ==========
+    - +.alipan.com
+    - +.aliyundrive.cloud
+    - +.aliyundrive.com
+    - +.aliyundrive.net
     # ========== 哔哩哔哩 ==========
     - +.bilibili.com
     - +.bilivideo.com
