@@ -1,4 +1,5 @@
 payload:
+    # ============ Venice AI ============
     - openaiapi-site.azureedge.net
     - openaiassets.blob.core.windows.net
     - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -23,3 +24,6 @@ payload:
     - o33249.ingest.sentry.io
     - o33249.ingest.us.sentry.io
     - openai.qualtrics.com
+    # ============ Venice AI ============
+    - +.venice.ai
+    - +.veniceai-status.com
