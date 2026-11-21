@@ -46,15 +46,17 @@ payload:
     - +.avsubtitles
     - +.subtitlecat.com
     # ============ JavDB Web UI ============
-    - +.fanza.fastcdn.dpdns.org
-    - +.catembylegacy.fastcdn.dpdns.org
+    - fanza.fastcdn.dpdns.org
+    - catembylegacy.fastcdn.dpdns.org
     - +.jdforrepam.com
-    - +.sb.scorecardresearch.com
-    - +.c.loadvideo.vip
-    - +.static.worldstatic.com
-    - +.o-1wxmrhzolp.vid-snap-player.com
-    - +.p19-ad-site-sign-sg.tiktokcdn.com
-    - +.p16-ad-site-sign-sg.tiktokcdn.com
-    # ============ LTX library ============
+    - sb.scorecardresearch.com
+    - c.loadvideo.vip
+    - static.worldstatic.com
+    - o-1wxmrhzolp.vid-snap-player.com
+    - p19-ad-site-sign-sg.tiktokcdn.com
+    - p16-ad-site-sign-sg.tiktokcdn.com
+    # ============ LTX library 无码 ============
     - +.ltxlib.dpdns.org
-    - +.ltx.libray
+    # ============ R18.dev 数据库 ============
+    - +.r18.dev
+    - cdn.counter.dev
