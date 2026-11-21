@@ -45,3 +45,8 @@ payload:
     - +.javzimu.com
     - +.avsubtitles
     - +.subtitlecat.com
+    # ============ JavDB Web UI ============
+    - +.fanza.fastcdn.dpdns.org
+    - +.catembylegacy.fastcdn.dpdns.org
+    - +.jdforrepam.com
+    - +.sb.scorecardresearch.com
