@@ -60,3 +60,6 @@ payload:
     # ============ R18.dev 数据库 ============
     - +.r18.dev
     - cdn.counter.dev
+    # ============ Hstream 在线动画============
+    - +.hstream.moe
+    - +.oppai-str.shoujo-h.org
