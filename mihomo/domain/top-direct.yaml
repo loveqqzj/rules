@@ -55,3 +55,5 @@ payload:
     - +.joplinapp.org
     # ====== 坚果云 ======
     - +.jianguoyun.com
+    # ====== Cloudflare 安全/证书测试与验证探测 ======
+    - +.cloudflarecaptcha.com
