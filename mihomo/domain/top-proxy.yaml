@@ -57,3 +57,9 @@ payload:
     - +.wikimediacloud.org
     - +.wmcloud.org
     - +.wmflabs.org
+    # ============ PotPlayer ============
+    - +.kakao.com
+    - +.kakaocdn.net
+    - +.edge4k.com
+    - +.daumcdn.net
+    - +.daum.net
